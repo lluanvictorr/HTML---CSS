@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/*{
+    font-family: 'Calibri'
+
+}*/
+
+body{
+    font-family: "Calibri";
+    background-image:linear-gradient(to right, #F2AB27, #8C610F)
+}
+main{
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #7c3e22;
+    width: 600px;
+    padding: 16px;
+    margin: auto;
+}
+
+
+h1{
+    color: #3F111B;
+    text-align: center;
+    text-shadow: 1px 1px 0px #be2f4ebe;
+   
+}
+h2{
+    text-align: justify;
+   color: #221109; 
+   text-shadow: 1px 1px 0px #22110973;
+}
+
+p{
+    text-align: justify;
+    
+}

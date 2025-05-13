@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+        @font-face {
+            font-family: 'Tox';
+            src: url(fontes/Tox\ Typewriter.ttf) format(truetype);
+        }
+        @font-face {
+            font-family: 'Striker';
+            src: url(fontes/Striker.ttf) format(truetype);
+        }
+        body{
+            
+            font-family:'Zain';
+            background-color:darkseagreen;
+            font-weight:bold;
+            font-size: 1.5em;
+            margin: 0;
+        }
+        header{
+            background-color:forestgreen;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color:rgb(130, 224, 111) ;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.500);
+            
+        }
+        nav > a{
+            text-align: center;
+            text-decoration: none;
+            font-weight: 800;
+            color: black;
+            margin: 65px;
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+     
+        h2{
+            height: 30px;
+        }
+        h3#menu{
+            text-align: center;
+        }
+        h3{
+            height: 1px;
+        }
+      
+        main{
+            background-color:darkgreen;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.450);
+        }
+        article{
+            background-color: rgb(47, 145, 47);
+            padding: 1px;
+         
+        }
+        article > aside{
+            background-color: rgb(77, 182, 86);
+          
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: 15px;
+            padding: 3px ;
+           
+        }
+        footer > p{
+            margin: 0px;
+        }
+        </style>
+    <title>Grouping TAGS</title>
+</head>
+<body>
+    <header>
+    <p>&ltcabeçalho&gt</p>
+    <h1>Meu site</h1>
+    <nav>
+    <h3 id="menu">MENU</h3>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    </nav>
+    </header>
+    <main>
+    <section id="principal">
+        <article>
+        <p>&ltmain&gt (principal)
+        <br>&ltsection&gt
+        <br>&ltarticle&gt</p>
+        <h2>Notícias do dia:</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta nemo vel nulla cumque fugiat officiis labore officia perspiciatis dolorum fuga aperiam non maiores expedita praesentium necessitatibus, beatae incidunt ab dicta.</p>
+        <p>&ltaside&gt</p>
+        <aside>
+        <p>Artigo escrito por Mayara Fernanda
+        </p>
+        </aside>
+        </article>
+        </section>       
+    </main>
+    <footer>
+        <p>Desenvolvido por Luan Victor</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes.
+    <br>Ou simplesmente aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/imagempequena.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/imagemmedia.png" type="image/png">
+        <img src="imagens/imagemgrande.png" alt="imagem flexível">  
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Bora aprender a colocar e reproduzir áudios no site em <strong>HTML5</strong>!</p>
+    <!--MP3 WAV OGG-->
+    <audio preload="metadata" controls loop>
+        <source src="midia/Moavii - Ovanea (freetouse.com).mp3" type="audio/mpeg">
+        <source src="midia/Moavii - Ovanea (freetouse.com).ogg" type="audio/ogg">
+        <source src="midia/Moavii - Ovanea (freetouse.com).wav" type="audio/wav"><!--WAV É PESADO!-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Moavii - Ovanea (freetouse.com).mp3">Clique aqui para baixar o áudio.</a></p>
+    </audio>
+    <h1>Reproduzindo vídeo</h1>
+    <h2>CR7 no jogo de  luta Fatal Fury &copy;SNK</h2>
+    <video controls width="600px" src="midia/FATAL FURY： CotW × CR7｜Announcement Trailer.mp4"></video>
+</body>
+</html>
