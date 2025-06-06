@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+}
+
+
+header
+{
+    background-color: black;
+    color: white;
+    text-align: center; 
+    font-size: 1.6em;
+
+}
+
+header  a
+{
+    color: white;
+    
+}
+
